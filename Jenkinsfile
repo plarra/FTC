@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('SVC') {
       steps {
-        git 'git@github.com:plarra/cobalt.git'
+        git 'git@codebasehq.com:engee-it/engeeit/yombu_services.git'
       }
     }
   }
